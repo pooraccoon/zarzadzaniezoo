@@ -1,6 +1,6 @@
 public class Orzel extends Ptak{
-    public Orzel(String nazwa, int wiek) {
-        super(nazwa, wiek);
+    public Orzel(String nazwa, int wiek, int rozpietoscSkrzydel) {
+        super(nazwa, wiek, rozpietoscSkrzydel);
     }
 
     @Override
@@ -11,5 +11,9 @@ public class Orzel extends Ptak{
     @Override
     public String poruszajSie() {
         return "ZIUUUU (leci)";
+    }
+
+    public String nurkujZPowietrza() {
+        return "orzel nurkuje? XD";
     }
 }

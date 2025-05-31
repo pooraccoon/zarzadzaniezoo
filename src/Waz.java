@@ -1,7 +1,8 @@
 public class Waz extends Gad{
-    public Waz(String nazwa, int wiek) {
-        super(nazwa, wiek);
+    public Waz(String nazwa, int wiek, int dlugoscCiala) {
+        super(nazwa, wiek, dlugoscCiala);
     }
+
     @Override
     public String wydajDzwiek() {
         return "sssssssssssssssssssss";
@@ -10,5 +11,9 @@ public class Waz extends Gad{
     @Override
     public String poruszajSie() {
         return "pelz pelz pelz";
+    }
+
+    public String budzWstret() {
+        return "aaaaaaa!";
     }
 }

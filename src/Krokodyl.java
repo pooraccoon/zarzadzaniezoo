@@ -1,7 +1,10 @@
 public class Krokodyl extends Gad{
-    public Krokodyl(String nazwa, int wiek) {
-        super(nazwa, wiek);
+    public Krokodyl(String nazwa, int wiek, int dlugoscCiala) {
+        super(nazwa, wiek, dlugoscCiala);
     }
+
+    private int dlugoscPaszczy;
+
     @Override
     public String wydajDzwiek() {
         return "nic nie slychac, bo krokodyle nie mowia";
@@ -10,5 +13,9 @@ public class Krokodyl extends Gad{
     @Override
     public String poruszajSie() {
         return "niezgrabne czlapanie";
+    }
+
+    public String zjedzPodroznika(){
+        return "omnomnom";
     }
 }

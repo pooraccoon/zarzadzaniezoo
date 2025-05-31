@@ -3,6 +3,8 @@ public class Slon extends Ssak{
         super(nazwa, wiek);
     }
 
+    private int dlugoscTraby;
+
     @Override
     public String wydajDzwiek() {
         return "dzwiek trabienia";
@@ -11,5 +13,8 @@ public class Slon extends Ssak{
     @Override
     public String poruszajSie() {
         return "LUP LUP LUP";
+    }
+    public String uciekajPrzedKlusownikiem() {
+        return "RUUUUN";
     }
 }

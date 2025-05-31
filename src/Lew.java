@@ -3,6 +3,8 @@ public class Lew extends Ssak{
         super(nazwa, wiek);
     }
 
+    private int promienGrzywy;
+
     @Override
     public String wydajDzwiek() {
         return "ROAAAARRRRRRR";
@@ -11,5 +13,9 @@ public class Lew extends Ssak{
     @Override
     public String poruszajSie() {
         return "nie porusza sie, to samice lwa poluja";
+    }
+
+    public String nicNieRob() {
+        return "lew nic nie robi";
     }
 }
